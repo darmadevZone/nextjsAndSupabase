@@ -14,6 +14,16 @@
         "editor.formatOnType": true,
         "editor.formatOnPaste": true,
     },
-    "markdown.extension.tableFormatter.enabled": true
+    "markdown.extension.tableFormatter.enabled": true,
     //biome linter formatter
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "[typescriptreact][typescript][javascriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "biomejs.biome"
+    }
 }
